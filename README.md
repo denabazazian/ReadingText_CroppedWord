@@ -2,16 +2,16 @@
 - Reading the text of cropped word images
 
  1. Make a confidence for each cropped word
- 2. Pass each confidence to the DictNet 
+ 2. Pass each confidence to the [DictNet](http://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14c) 
  3. Read the text of each cropped word
 
 ## Run
 
 - Shell commands of running this code: <br />
-** ``` python confidenceOfCropped.py /path/to/input/images/*.jpg ``` <br /> 
-** ``` getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv ``` <br />
-** ``` getDictNet.py dictnet2final ./vggtr_confidence/*.csv -vocDir=./voc_strong -dictnetThr=.4 ``` <br />
-** ``` getDictNet.pyLTWHTr2icdar4pZip -outfile=./zips/finalDN40Iou30Vocstrong_vggtr_confidence.zip /finalDN40Iou30Vocstrong_vggtr_confidence/*.csv ``` <br />
+  1.  ``` python confidenceOfCropped.py /path/to/input/images/*.jpg ``` <br /> 
+  2. ``` getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv ``` <br />
+  3. ``` getDictNet.py dictnet2final ./vggtr_confidence/*.csv -vocDir=./voc_strong -dictnetThr=.4 ``` <br />
+  4. ``` getDictNet.pyLTWHTr2icdar4pZip -outfile=./zips/finalDN40Iou30Vocstrong_vggtr_confidence.zip /finalDN40Iou30Vocstrong_vggtr_confidence/*.csv ``` <br />
 
 
 ## Citation
