@@ -8,11 +8,9 @@
 ## Run
 
 - Shell commands of running this code: <br />
-  1.  ``` python confidenceOfCropped.py /path/to/input/images/*.jpg ``` <br /> 
-  2. ``` getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv ``` <br />
-  3. ``` getDictNet.py dictnet2final ./vggtr_confidence/*.csv -vocDir=./voc_strong -dictnetThr=.4 ``` <br />
-  4. ``` getDictNet.pyLTWHTr2icdar4pZip -outfile=./zips/finalDN40Iou30Vocstrong_vggtr_confidence.zip /finalDN40Iou30Vocstrong_vggtr_confidence/*.csv ``` <br />
-
+  1.  ``` python confidenceOfCropped.py /path/to/input/images/*.png ``` <br /> 
+  2.  ```  python getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv ``` <br />
+  3.  ```  python readCroppedImages.py /path/to/vggtr_confidence/*.csv ``` <br />
 
 ## Citation
 This pipeline was used for reading compressed cropped word image of this [paper](http://www.micc.unifi.it/seidenari/wp-content/papercite-data/pdf/iccv_epic_2017.pdf). Please cite this work in your publications if it helps your research: <br />
