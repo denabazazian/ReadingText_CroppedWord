@@ -7,11 +7,11 @@
 
 ## Run
 
-- Shell commands of running this code:
-** python confidenceOfCropped.py /path/to/input/images/*.jpg
-** getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv
-** getDictNet.py dictnet2final ./vggtr_confidence/*.csv -vocDir=./voc_strong -dictnetThr=.4
-** getDictNet.pyLTWHTr2icdar4pZip -outfile=./zips/finalDN40Iou30Vocstrong_vggtr_confidence.zip /finalDN40Iou30Vocstrong_vggtr_confidence/*.csv
+- Shell commands of running this code: <br />
+** ``` python confidenceOfCropped.py /path/to/input/images/*.jpg ``` <br /> 
+** ``` getDictNet.py -gpu=0 '-inputDir=/path/to/input/images/' conf2dictnet /path/to/confidence/*.csv ``` <br />
+** ``` getDictNet.py dictnet2final ./vggtr_confidence/*.csv -vocDir=./voc_strong -dictnetThr=.4 ``` <br />
+** ``` getDictNet.pyLTWHTr2icdar4pZip -outfile=./zips/finalDN40Iou30Vocstrong_vggtr_confidence.zip /finalDN40Iou30Vocstrong_vggtr_confidence/*.csv ``` <br />
 
 
 ## Citation
